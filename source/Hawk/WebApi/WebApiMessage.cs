@@ -41,7 +41,7 @@ namespace Thinktecture.IdentityModel.Hawk.WebApi
 
         public async Task<string> ReadBodyAsStringAsync()
         {
-            return await this.body.Value;
+            return await this.body;
         }
 
         public string ContentType
